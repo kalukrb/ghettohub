@@ -1,0 +1,52 @@
+@font-face {
+	font-family: 'naslov1';
+	src: url(fontovi/halodek.ttf);
+}
+
+@font-face {
+	font-family: 'p';
+	src: url(fontovi/heycomic.ttf);
+}
+
+@font-face {
+	font-family: 'naslov2';
+	src: url(fontovi/Trends.ttf);
+}
+
+body {
+	background-image: url("fsfsfs.png");
+	margin: 0;
+	padding: 0;
+	background-repeat: no-repeat;
+    background-size: cover;
+    font-family: futura;
+}
+.okvir {
+	background-image: url('kaones2.jpg');
+	margin-inline: 300px;
+	background-repeat: no-repeat;
+    background-size: cover;
+}
+.zatext {
+	padding-top: 14px;
+	padding-inline: 45px;
+}
+#welcome {
+	font-family: "naslov1";
+	color: red;
+	font-size: 50px;
+	-webkit-text-stroke: 0.5px darkred;
+	text-shadow: -3px 2px 3px darkred;
+}
+.paragrafi {
+	font-family: "p";
+	color: darkred;
+	background-color: grey;
+	border: 2px darkred solid;
+}
+#gamil {
+	color: #ebac00;
+}
+#linija {
+	border-top: 2px darkred solid;
+}
