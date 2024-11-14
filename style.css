@@ -1,16 +1,21 @@
 @font-face {
 	font-family: 'naslov1';
-	src: url(halodek.ttf);
+	src: url(fontovi/halodek.ttf);
 }
 
 @font-face {
 	font-family: 'p';
-	src: url(heycomic.ttf);
+	src: url(fontovi/heycomic.ttf);
 }
 
 @font-face {
 	font-family: 'naslov2';
-	src: url(Trends.ttf);
+	src: url(fontovi/Trends.ttf);
+}
+
+@font-face {
+	font-family: 'napoli';
+	src: url(fontovi/Napoli.ttf);
 }
 
 body {
@@ -23,7 +28,7 @@ body {
 }
 .okvir {
 	background-image: url('kaones2.jpg');
-	margin-inline: 300px;
+	margin-inline: 18.75rem;
 	background-repeat: no-repeat;
     background-size: cover;
 }
@@ -45,8 +50,31 @@ body {
 	border: 2px darkred solid;
 }
 #gamil {
-	color: #ebac00;
+	color: #db730b;
 }
-#linija {
+hr {
 	border-top: 2px darkred solid;
+}
+#kraj {
+	font-family: "naslov2";
+	color: red;
+	font-size: 50px;
+	-webkit-text-stroke: 0.5px darkred;
+	text-shadow: -3px 2px 3px darkred;
+}
+#poseti {
+	color: #db730b;
+}
+.futer{
+	margin-inline: 18.75rem;
+	background-image: url("footer.jpg");
+		font-family: "napoli";
+	color: white;
+	background-color: grey;
+}
+#sarma {
+	color: limegreen;
+	text-decoration: none;
+	-webkit-text-stroke: 0.5 darkgreen;
+	text-shadow: -3px 2px 3px darkgreen;
 }
