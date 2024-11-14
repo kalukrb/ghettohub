@@ -1,21 +1,21 @@
 @font-face {
 	font-family: 'naslov1';
-	src: url(fontovi/halodek.ttf);
+	src: url(halodek.ttf);
 }
 
 @font-face {
 	font-family: 'p';
-	src: url(fontovi/heycomic.ttf);
+	src: url(heycomic.ttf);
 }
 
 @font-face {
 	font-family: 'naslov2';
-	src: url(fontovi/Trends.ttf);
+	src: url(Trends.ttf);
 }
 
 @font-face {
 	font-family: 'napoli';
-	src: url(fontovi/Napoli.ttf);
+	src: url(Napoli.ttf);
 }
 
 body {
